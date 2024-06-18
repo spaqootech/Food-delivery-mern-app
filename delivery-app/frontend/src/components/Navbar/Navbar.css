@@ -1,0 +1,36 @@
+.navbar{
+    padding: 20px 0px;
+}
+.navbar,.navbar>ul{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.navbar>ul{
+    gap: 20px;
+}
+.navbar>ul>a{
+    border-bottom: 2px solid transparent;
+    padding: 5px 0px;
+    color: gray;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar>ul>li,.navbar>ul>img,.navbar>img{
+    cursor: pointer;
+}
+.navbar>ul>button{
+    color: gray;
+    padding: 10px 23px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    background-color: transparent;
+    transition: 0.15s;
+}
+.navbar>ul>button:hover{
+    color: white;
+    background-color: gray;
+}
+.navbar .active{
+    border-bottom: 2px solid gray;
+}

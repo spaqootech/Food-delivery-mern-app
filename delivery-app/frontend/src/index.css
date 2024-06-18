@@ -1,0 +1,15 @@
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+li{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}

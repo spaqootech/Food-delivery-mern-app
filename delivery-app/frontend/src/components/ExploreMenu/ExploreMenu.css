@@ -1,0 +1,32 @@
+.explore-menu{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu>p{
+    width: 60%;
+}
+.explore-menu-list{
+    display: flex;
+    gap: 11px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.items{
+    text-align: center;
+}
+.items>img{
+    cursor: pointer;
+    border: 5px solid transparent;
+    border-radius: 100%;
+    padding: 2px;
+    height: 130px;
+}
+.items .active{
+    border-color: tomato;
+}

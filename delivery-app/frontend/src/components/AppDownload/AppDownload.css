@@ -1,0 +1,22 @@
+.app-download{
+    padding: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.app-download>h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.flex>img{
+    cursor: pointer;
+}
